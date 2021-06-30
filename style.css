@@ -1,0 +1,91 @@
+ h1{
+           color:black;
+           
+        }
+
+
+
+
+        h2{
+            color : blue ;
+        }
+
+        .back{
+           font-family: fantasy;
+           background-color: violet;
+          background-image: url("paperBack.png");
+        }
+
+        .header{
+            /* background-color: cadetblue;*/
+             display: flex;
+             justify-content: space-between;
+             font-style :oblique;
+             font-family:cursive;
+             font-size: 20px;
+         }
+
+         body{
+             background-color:slategray;
+         }
+
+         .text{
+             color: black;
+             font-family:cursive;
+             font-weight: 100;
+         }
+
+         .text2{
+            font-family:cursive;
+            font-weight: 100;
+         }
+
+         .photos{
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: space-between;
+         }
+
+         .photos2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+         }
+
+         .footer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;  
+         }
+
+        .grid{
+            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+        }
+        
+        
+        .item {
+            background-color:tan;
+            border: 2px solid black;
+            border-radius: 50px;
+            display: flex;
+           position:relative;
+         flex-direction: column;
+         border-radius: 20px;
+         width: 310px;
+         font-family: cursive;
+        }
+
+        a:link{
+            color: black;
+        }
+        
+        a:visited{
+            color: black;
+        }
+        
+
+
+        
